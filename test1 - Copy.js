@@ -20,7 +20,7 @@ var caps = {
     password : authkey
 };
 
-
+//
 async function basicExample(){
     try{
         var driver = new webdriver.Builder()
