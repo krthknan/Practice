@@ -6,3 +6,6 @@ git checkout --a.txt
 
 git log
 git log --oneline --graph
+
+git add -u
+git add -A
