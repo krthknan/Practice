@@ -1,1 +1,8 @@
-a
+GIT : 
+git config --global --list	
+git status
+git reset HEAD a.txt
+git checkout --a.txt
+
+git log
+git log --oneline --graph
