@@ -1,0 +1,55 @@
+GIT : 
+git config --global --list	
+git status
+git reset HEAD a.txt
+git checkout --a.txt
+
+git log
+git log --oneline --graph --decorate --all
+
+git add -u
+git add -A
+
+git branch
+git checkout -b NewBranch
+
+Modify changes in NewBranch
+Then commit those changes to the branch
+
+git add .
+git commit -m "Added changes to new branch"
+
+To merge changes, switch to master, then merge changes from branch to master :
+
+git checkout master
+git merge NewBranch
+
+To delete the branch after commit
+git branch -d NewBranch
+
+To show all branches:
+git branch -a
+
+To Tag :
+git tag myTag
+git tag --list
+git tag -d myTag
+
+Annotated tag :
+git tag -a v1.0 -m "Release version 1.0"
+git show v1.0
+
+Stash :
+git stash
+git stash list
+git stash pop
+
+Reset :
+git reset commitId --soft
+git reset commitId --hard
+git reset commitId --mixed
+
+git reset HEAD~1
+git reset HEAD~2
+
+git reset --hard commitId
