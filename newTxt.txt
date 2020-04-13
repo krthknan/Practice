@@ -1,2 +1,2 @@
-From newBranch
+From newBranch.
 Added from local
