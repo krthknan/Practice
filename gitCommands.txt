@@ -1,3 +1,4 @@
+"Committed from branch"
 GIT : 
 git config --global --list	
 git status
